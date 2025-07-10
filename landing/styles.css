@@ -22,9 +22,12 @@
 .black{
     color: #252432;
 }
+
 .des-color{
-    color: #2B2A3B;
+    color: #000000;
+    opacity: 0.5;
 }
+
 .button{
     background-color: #4E47FF;
     color: #FFFFFF;
@@ -100,3 +103,35 @@ header-title{
     border-radius: 48px;
     border: none;
 }
+/* join section */
+.joined{
+    max-width: 1140px;
+    margin: 0px auto;
+    text-align: center;
+    height: 306px;
+    margin-bottom: 137px;
+}
+.join-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 142px;
+}
+.joined-title{
+    font-size: 38px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.join-title{
+    font-size: 80px;
+    font-weight: bold;
+}
+join-des{
+    font-size: 20px;
+    font-weight: 400px;
+}
+.join-bg{
+    border: 1px solid transparent;
+    background-color: rgba(78,71,255,0.1);
+    border-radius: 24px;
+}
+/* card section */
