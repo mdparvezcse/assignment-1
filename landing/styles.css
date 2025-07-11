@@ -41,6 +41,8 @@ main{
     font-weight: bold;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
+    transition: 0.5;
 }
 .second-bg{
     border: 1px solid transparent;
@@ -51,6 +53,7 @@ main{
 .header{
     max-width: 1440px;
     margin: 0px auto;
+    
 }
 .navigation{
     display: flex;
@@ -60,9 +63,10 @@ main{
     padding-right: 150px;
     align-items: center;
 }
-header-title{
+.header-title{
     font-size: 34px;
     font-weight: 900px;
+    line-height: 150%;
 }
 /* banner section */
 .banner-content{
@@ -135,7 +139,6 @@ header-title{
     font-size: 80px;
     font-weight: bold;
     color: #4E47FF;
-    opacity: 0.5;
 }
 join-des{
     font-size: 20px;
@@ -156,7 +159,8 @@ margin: 0px auto;
     width: 531px;
     height: 221px;
     margin: 0px auto;
-    padding: 103px 455px;
+    padding: 101px 453px;
+    background-color: #FFFFFF;
 }
 .footer-var ul{
     display: flex;
@@ -195,7 +199,7 @@ margin: 0px auto;
 .touch-content{
     width: 528px;
     height: 232px;
-    color: #757575;
+    color: #000000;
 }
 .touch-content h1{
     font-size: 97px;
@@ -228,14 +232,17 @@ margin: 0px auto;
     margin-bottom: 19px;
 }
 .form button{
+    height: 62px;
+    width: 497px;
     font-size: 16px;
     text-align: center;
     font-weight: bold;
     color: #FFFFFF;
     background-color: #4E47FF;
-    padding: 19px 220px 19px 210px;
+    padding: 9px 171px 9px 171px;
     border: none;
     border-radius: 48px;
+    
 }
 .form label{
     font-size: 18px;
@@ -245,6 +252,7 @@ margin: 0px auto;
 /* button style */
 button:hover{
     background-color: tomato;
+    transform: scale(1.1);
 }
 /* card section style */
 .card-section{
