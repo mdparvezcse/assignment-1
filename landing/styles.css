@@ -134,4 +134,165 @@ join-des{
     background-color: rgba(78,71,255,0.1);
     border-radius: 24px;
 }
-/* card section */
+/* footer style */
+footer{
+max-width: 1440px;
+margin: 0px auto;
+}
+.footer{
+    text-align: center;
+    width: 531px;
+    height: 221px;
+    margin: 0px auto;
+    padding: 103px 455px;
+}
+.footer-var ul{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-var ul li{
+    list-style: none;
+}
+.footer-var ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #8987A1;
+}
+.footer-title{
+    font-size: 100px;
+    font-weight: 900px;
+    color: #4E47FF;
+    padding-bottom: ;
+}
+.footer-content{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #8987A1;
+    padding-bottom: 20px;
+}
+/* touch section styles */
+.touch-section{
+    max-width: 1140px;
+    margin: 0px auto;
+    height: 632px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.touch-content{
+    width: 528px;
+    height: 232px;
+}
+.touch-content h1{
+    font-size: 97px;
+    font-weight: bold;
+}
+/* form section */
+.form{
+    width: 497px;
+    height: 490px;
+}
+.form input[type="text"],input[type="email"]{
+    font-size: 20px;
+    font-weight: 400px;
+    padding: 32px 234px 20px 20px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 19px;
+    margin-top: 10px;
+}
+.form textarea{
+    font-size: 20px;
+    font-weight: 400px;
+    padding: 20px 225px 85px 32px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 19px;
+}
+.form button{
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    padding: 19px 220px 19px 210px;
+    border: none;
+    border-radius: 48px;
+}
+.form label{
+    font-size: 18px;
+    font-weight: 600px;
+}
+/* button style */
+button:hover{
+    background-color: tomato;
+}
+/* card section style */
+.card-section{
+    max-width: 1140px;
+    margin: 0px auto;
+    text-align: center;
+}
+.card-image{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    gap: 4px;
+}
+.card{
+    width: 330px;
+    height: 243px;
+    margin: 0px auto;
+    border: none;
+    padding-left: 24px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 10px blanchedalmond, -5px -5px  10px floralwhite;
+    text-align: left;
+}
+.icon img{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    gap: 12px;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 600px;
+    padding-bottom: 8px;
+}
+.card-subtitle{
+    font-size: 16px;
+    font-weight: 400px;
+    padding-bottom: 24px;
+}
+.card-image img{
+    border-radius: 9999px;
+}
+.card-image-name{
+    font-size: 16px;
+    font-weight: 500px;
+}
+.card-image-name-address{
+    font-size: 16px;
+    font-weight: 400px;
+}
+.card-image{
+    padding-bottom: 24px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 107px;
+}
+.card-section-title{
+    font-size: 42px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
