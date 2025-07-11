@@ -29,7 +29,7 @@ main{
 }
 
 .des-color{
-    color: #000000;
+    color: #252432;
     opacity: 0.5;
 }
 
@@ -45,7 +45,7 @@ main{
 .second-bg{
     border: 1px solid transparent;
     background-color: rgba(245,248,255,1);
-    border-radius: 24px;
+    border-radius: 0px;
 }
 /* navigation var styles */
 .header{
@@ -134,6 +134,8 @@ header-title{
 .join-title{
     font-size: 80px;
     font-weight: bold;
+    color: #4E47FF;
+    opacity: 0.5;
 }
 join-des{
     font-size: 20px;
@@ -173,7 +175,7 @@ margin: 0px auto;
     font-size: 100px;
     font-weight: 900px;
     color: #4E47FF;
-    padding-bottom: ;
+    padding-bottom: 8px;
 }
 .footer-content{
     font-size: 16px;
@@ -193,6 +195,7 @@ margin: 0px auto;
 .touch-content{
     width: 528px;
     height: 232px;
+    color: #757575;
 }
 .touch-content h1{
     font-size: 97px;
@@ -206,7 +209,8 @@ margin: 0px auto;
 .form input[type="text"],input[type="email"]{
     font-size: 20px;
     font-weight: 400px;
-    padding: 32px 234px 20px 20px;
+    color: #000000;
+    padding: 20px 220px 20px 20px;
     background-color: #FFFFFF;
     border: none;
     border-radius: 10px;
@@ -216,7 +220,7 @@ margin: 0px auto;
 .form textarea{
     font-size: 20px;
     font-weight: 400px;
-    padding: 20px 225px 85px 32px;
+    padding: 20px 210px 85px 32px;
     background-color: #FFFFFF;
     border: none;
     border-radius: 10px;
@@ -236,6 +240,7 @@ margin: 0px auto;
 .form label{
     font-size: 18px;
     font-weight: 600px;
+    color: #757575;
 }
 /* button style */
 button:hover{
@@ -250,6 +255,7 @@ button:hover{
 .card-image{
     display: flex;
     align-items: center;
+    gap: 15px;
 }
 .icon{
     display: flex;
@@ -263,7 +269,7 @@ button:hover{
     padding-left: 24px;
     border-radius: 24px;
     background-color: #FFFFFF;
-    box-shadow: 5px 5px 10px blanchedalmond, -5px -5px  10px floralwhite;
+    box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
     text-align: left;
 }
 .icon img{
@@ -275,10 +281,12 @@ button:hover{
     font-size: 24px;
     font-weight: 600px;
     padding-bottom: 8px;
+    color: #1E1E1E;
 }
 .card-subtitle{
     font-size: 16px;
     font-weight: 400px;
+    color: #1E1E1E;
     padding-bottom: 24px;
 }
 .card-image img{
@@ -287,22 +295,26 @@ button:hover{
 .card-image-name{
     font-size: 16px;
     font-weight: 500px;
+    color: #757575;
 }
 .card-image-name-address{
     font-size: 16px;
     font-weight: 400px;
+    color: #B3B3B3;
 }
 .card-image{
     padding-bottom: 24px;
+
 }
 .card-container{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
     padding-bottom: 107px;
 }
 .card-section-title{
     font-size: 42px;
     font-weight: bold;
     padding-bottom: 50px;
+    color: #252432;
 }
